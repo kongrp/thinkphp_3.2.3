@@ -2,7 +2,6 @@
 return array(
     'YUNZHI_PAGE_SIZE'      => 3,          //默认分页大小
     
-    'DEFAULT_MODULE'        => 'Login',  // 默认模块
     'ACTION_SUFFIX'         => 'Action',//设置ACTION后缀为action
     
     

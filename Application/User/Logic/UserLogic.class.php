@@ -9,4 +9,9 @@ class UserLogic extends UserModel{
 		return $data;
 
 	}
+
+	public function getAllLists(){
+		$datas = $this->select();
+		return $datas;
+	}
 }
