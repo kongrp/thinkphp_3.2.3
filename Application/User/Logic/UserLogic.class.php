@@ -1,0 +1,12 @@
+<?php
+namespace User\Logic;
+use User\Model\UserModel;
+class UserLogic extends UserModel{
+	public function getlistByName($name){
+
+		$map['name'] = $name;
+		$data = $this->where($map)->find();
+		return $data;
+
+	}
+}
